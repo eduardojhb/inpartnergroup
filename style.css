@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  .login, .register, .cart, .products, .checkout {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login h2, .register h2, .cart h2, .products h2, .checkout h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .login form, .register form, .checkout form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .login input, .register input, .checkout input, .login button, .register button, .checkout button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .login button, .register button, .checkout button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cart {
+    background-color: #fff;
+  }
+  
+  .cart h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+  }
+  
+  .cart p {
+    font-size: 1.2em;
+    text-align: right;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .products ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .products li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .products button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .products button:hover {
+    background-color: #555;
+  }
+  
+  .checkout input, .checkout button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .checkout button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .checkout button:hover {
+    background-color: #555;
+  }
+  

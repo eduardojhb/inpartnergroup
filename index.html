@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Carrito de Compras</title>
+</head>
+<body>
+  <header>
+    <h1>Carrito de Compras</h1>
+  </header>
+  
+  <section class="login">
+    <h2>Iniciar Sesión</h2>
+    <form>
+      <input type="text" placeholder="Correo Electrónico" required>
+      <input type="password" placeholder="Contraseña" required>
+      <button type="submit">Iniciar Sesión</button>
+    </form>
+  </section>
+
+  <section class="register">
+    <h2>Registro</h2>
+    <form>
+      <input type="text" placeholder="Nombre Completo" required>
+      <input type="email" placeholder="Correo Electrónico" required>
+      <input type="password" placeholder="Contraseña" required>
+      <button type="submit">Registrarse</button>
+    </form>
+  </section>
+
+  <section class="cart">
+    <h2>Carrito de Compras</h2>
+    <ul id="cart-items">
+      <!-- Los productos del carrito se agregarán aquí -->
+    </ul>
+    <p>Total: <span id="cart-total">$0.00</span></p>
+  </section>
+
+ <!-- ... (código anterior) ... -->
+
+ <section class="products">
+    <h2>Productos</h2>
+    <ul id="product-list">
+      <!-- Lista de productos se generará aquí dinámicamente -->
+    </ul>
+  </section>
+      <!-- Agregar más productos aquí -->
+    </ul>
+  </section>
+  
+  <!-- ... (código posterior) ... -->
+
+  <section class="checkout">
+    <h2>Información de Compra</h2>
+    <form id="checkout-form">
+      <input type="text" placeholder="Nombre Completo" required>
+      <input type="email" placeholder="Correo Electrónico" required>
+      <input type="tel" placeholder="Número de Teléfono" required>
+      <input type="text" placeholder="Dirección de Envío" required>
+      <button type="submit">Comprar</button>
+    </form>
+  </section>
+  
+
+  <footer>
+    <p>&copy; 2023 Carrito de Compras</p>
+  </footer>
+
+
+
+  <script src="app.js"></script>
+</body>
+</html>
